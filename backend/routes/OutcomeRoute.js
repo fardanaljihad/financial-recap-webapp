@@ -3,8 +3,8 @@ import { createOutcome, getAllOutcomeUser,getOutcomeByOutcomeId, updateOutcome, 
 
 const router = express.Router();
 
-router.post('/users/:id/Outcomes', createOutcome);
-router.get('/users/:id/Outcomes', getAllOutcomeUser);
+router.post('/users/:id/outcomes', createOutcome);
+router.get('/users/:id/outcomes', getAllOutcomeUser);
 router.get('/users/:userId/Outcomes/:id', getOutcomeByOutcomeId);
 router.put('/users/:userId/Outcomes/:id', updateOutcome);
 router.delete('/users/:userId/Outcomes/:id', deleteOutcome);

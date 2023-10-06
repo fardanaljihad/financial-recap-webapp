@@ -17,6 +17,6 @@ export default function Dashboard() {
                 <RecentOrders />
                 <PopularProducts />
             </div>
-    </div>
+        </div>
     )
 }
