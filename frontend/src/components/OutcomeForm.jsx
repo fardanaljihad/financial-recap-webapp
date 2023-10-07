@@ -95,10 +95,9 @@ export default function OutcomeForm() {
                 onChange={handleChange}
             >
                 <option value="Pilih jenis pengeluaran">Pilih jenis pengeluaran</option>
-                <option value="3">Savings</option>
+                <option value="1">Savings</option>
                 <option value="2">Wants</option>
-                <option value="1">Needs</option>
-                {/* Tambahkan jenis pengeluaran lainnya sesuai kebutuhan */}
+                <option value="3">Needs</option>
             </select>
             </div>
             <div className="mb-4">
@@ -116,7 +115,6 @@ export default function OutcomeForm() {
                 <option value="1">Groceries</option>
                 <option value="2">Transportation</option>
                 <option value="3">Games</option>
-                {/* Tambahkan kategori lainnya sesuai kebutuhan */}
             </select>
             </div>
             <div className="mb-4">
@@ -134,7 +132,6 @@ export default function OutcomeForm() {
                 <option value="1">Dompet</option>
                 <option value="2">Kartu Kredit</option>
                 <option value="3">BCA</option>
-                {/* Tambahkan wallet lainnya sesuai kebutuhan */}
             </select>
             </div>
             <div className="flex items-center justify-between">
